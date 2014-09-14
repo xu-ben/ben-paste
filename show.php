@@ -63,7 +63,7 @@
  			<h1 id="title">Web粘贴板(ben-paste)</h1>
  			<h3>粘贴者：<?php echo ($poster);?> 粘贴时间：<?php echo ($posttime);?></h3>
  			<br>
- 			<div id = "content">
+ 			<div id = "content" style="background-color: #eee">
  				<pre>
  				<?php echo ($content);?>
  				</pre>
