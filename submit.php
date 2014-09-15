@@ -19,7 +19,7 @@
 	$result = mysql_query($sql);
 	if($result) {
 		$newid = mysql_insert_id();
-		$newidstr = sprintf("%06s", $newid);
+		$newidstr = sprintf("%05s", $newid);
 		$url = 'show.php?textid=' . $newidstr;
 		Header('Location: ' . $url);
 	}else {
