@@ -8,18 +8,18 @@
 	function myjudge() {
 		global $id;
 		global $idstr;
-		if(!isset($_GET['textid'])) {
+		if(!isset($_GET['id'])) {
 			return false;
 		}
-		$idstr = $_GET['textid'];
+		$idstr = $_GET['id'];
 		if(empty($idstr)) {
 			return false;
 		}
-		if(strlen($idstr) != 6) {
+		if(strlen($idstr) != 5) {
 			return false;
 		}
 		sscanf($idstr,"%d", $id);
-		if($id <= 0 || $id > 999999) {
+		if($id <= 0 || $id > 99999) {
 			return false;
 		}
 		return true;
@@ -29,8 +29,8 @@
 	if(!myjudge()) {
 ?>
 		<script type="text/javascript">
-			var ids = prompt("请输入要查看的内容编号(6位纯数字，包含前导0)：");
-			var url = "show.php?textid=" + ids;
+			var ids = prompt("请输入要查看的内容编号(5位纯数字，包含前导0)：");
+			var url = "show.php?id=" + ids;
 			window.location = url;
 		</script>
 <?php
