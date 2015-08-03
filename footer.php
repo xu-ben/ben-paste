@@ -1,5 +1,5 @@
 <footer>
 	<p align="center">
-	&copy; 2014 All Rights Reserved. | 京ICP备13051895号-1
+	&copy; 2015 All Rights Reserved. 
 	</p>
 </footer>

@@ -12,7 +12,7 @@
 		return;
 	}
 ?>
-<?php require_once("../db_connect.php");?>
+<?php require_once("db_connect.php");?>
 <?php
 	$sql = 'insert into paste_tab (poster, syntax, content) values ("';
 	$sql = $sql . $poster . '","' . $syntax . '","' . $content . '")';
