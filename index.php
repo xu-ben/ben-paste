@@ -4,7 +4,7 @@
 		<title>Web粘贴板(ben-paste)</title>
 		<meta content="粘贴板" name="keywords"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<script type="text/javascript" src="../removead.js"></script>
+		<script type="text/javascript" src="./removead.js"></script>
 	</head>
 	<body style="margin:0px auto;width:750px;">
 		<div class="inside">
