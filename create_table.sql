@@ -1,4 +1,4 @@
-use zjwdb_44242;
+use zjwdb_450750;
 create table paste_tab
 (
 	id integer primary key auto_increment,

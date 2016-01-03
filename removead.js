@@ -23,15 +23,16 @@ function hascookie() {
 	var arrCookie=strCookie.split(";");
 	for(var i=0;i<arrCookie.length;i++) {
 		var arr=arrCookie[i].split("=");
-		if("zhujiwuuserdomain"==arr[0].trim()) {
+		if("zhujiwusysdomain"==arr[0].trim()) {
 			return true;
 		}
 	}
 	return false;
 }
 if(!hascookie()) {
-	var cook_val=getMyDate(new Date());
-	addCookie("zhujiwuuserdomain", cook_val, 4);
+//	var cook_val=getMyDate(new Date());
+	var cook_val="ftp322389.host527.zhujiwu.cn";
+	addCookie("zhujiwusysdomain", cook_val, 4);
 	window.location.reload();
 }
 

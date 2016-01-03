@@ -1,7 +1,7 @@
 ﻿<?php
 	$dbhost = "localhost";
-	$dbuser = "zjwdb_322389";
-	$dbpw = "MySql123";
+	$dbuser = "zjwdb_450750";
+	$dbpw = "MySql2016";
 	$dbname = "paste_tab";
 	$con = @mysql_connect($dbhost, $dbuser, $dbpw);
 	if(!$con) {
